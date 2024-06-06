@@ -13,7 +13,6 @@ public class HelloWorldController {
     }
 
     @GetMapping({"/HelloWorld2", "/HelloWorld2/{name}"})
-    @ResponseBody
     public String saluda2(@PathVariable(required = false) String name) {
         if (name == null) {
             name = "";

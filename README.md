@@ -79,6 +79,26 @@ http://localhost:9000/HelloWorld?name=My name
 
 The second method will respond to a GET request, and must be configured to receive the parameter as a PathVariable. The "name" parameter will be optional.
 
+useful links:
+RequestParam:
+
+->https://www.baeldung.com/spring-request-param
+
+
+PathVariable:
+
+->https://www.baeldung.com/spring-optional-path-variables
+
+
+Diferències RequestParam i PathVariable:
+
+->https://www.baeldung.com/spring-requestparam-vs-pathvariable
+
+
+Diferències entre Maven i Gradle
+
+->https://www.chakray.com/es/gradle-vs-maven-definiciones-diferencias/ ->https://programmerclick.com/article/47131530173/
+
 You will have to answer to:
 
 http://localhost:9000/HelloWorld2

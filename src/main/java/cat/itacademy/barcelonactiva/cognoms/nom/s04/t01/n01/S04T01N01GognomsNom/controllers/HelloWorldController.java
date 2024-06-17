@@ -8,12 +8,12 @@ public class HelloWorldController {
 
     @GetMapping("/HelloWorld")
     @ResponseBody
-    public String saluda(@RequestParam(defaultValue = "UNKNOWN")  String name) {
+    public String greetings(@RequestParam(defaultValue = "UNKNOWN")  String name) {
         return "Hola, " + name + ". Estás ejecutando un proyecto Maven.";
     }
 
     @GetMapping({"/HelloWorld2", "/HelloWorld2/{name}"})
-    public String saluda2(@PathVariable(required = false) String name) {
+    public String greetings2(@PathVariable(required = false) String name) {
         if (name == null) {
             name = "UNKNOWN";
         }
